@@ -16,6 +16,10 @@ module.exports = (sequelize, DataTypes) =>{
         communityUser_userEmail :  {
             type:DataTypes.STRING,
             required: true
+        },
+        communityUser_userMobile :  {
+            type:DataTypes.STRING,
+            required: true
         }
     })
     return communityuser
